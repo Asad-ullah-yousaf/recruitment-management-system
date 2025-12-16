@@ -90,7 +90,9 @@ export interface Interview {
   jobId: string;
   jobTitle: string;
   departmentId: string;
+  departmentName: string;
   divisionId: string;
+  divisionName: string;
   scheduledDate: string;
   scheduledTime: string;
   mode: 'online' | 'onsite';

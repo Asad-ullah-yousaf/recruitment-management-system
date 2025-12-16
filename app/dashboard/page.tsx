@@ -323,11 +323,11 @@ export default function DashboardPage() {
               <ResponsiveContainer width="100%" height={350}>
                 <PieChart>
                   <Pie
-                    data={stats.departmentStats}
+                    data={stats.departmentStats as any}
                     cx="50%"
                     cy="50%"
                     labelLine={true}
-                    label={({ name, percent, value }) => {
+                    label={({ name, percent, value }: any) => {
                       const shortName = name.length > 15 ? name.substring(0, 15) + '...' : name;
                       return `${shortName}\n${(percent * 100).toFixed(1)}% (${value})`;
                     }}

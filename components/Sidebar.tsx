@@ -68,7 +68,14 @@ export default function Sidebar() {
     };
   }, [isMobileOpen]);
 
-  const navItems = [];
+  interface NavItem {
+    href: string;
+    label: string;
+    icon: any;
+    ariaLabel: string;
+  }
+
+  const navItems: NavItem[] = [];
 
   if (user.role === 'super_admin') {
     navItems.push(

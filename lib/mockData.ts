@@ -873,22 +873,23 @@ export const mockApplications: Application[] = [
 export const mockInterviews: Interview[] = [
   // Technology & IT Interviews
   {
-    id: 'int1',
-    applicationId: 'app1',
-    candidateId: 'cand1',
-    candidateName: 'Alice Chen',
-    jobId: 'job12',
-    jobTitle: 'Software Engineer (Front-end)',
-    departmentId: 'dept16',
-    divisionId: 'div4',
-    divisionName: 'Technology & IT',
-    scheduledDate: '2024-02-20',
-    scheduledTime: '10:00',
-    mode: 'online',
-    interviewerId: '2',
-    interviewerName: 'Sarah Tech HR',
-    status: 'scheduled',
-    createdAt: '2024-02-08',
+      id: 'int1',
+      applicationId: 'app1',
+      candidateId: 'cand1',
+      candidateName: 'Alice Chen',
+      jobId: 'job12',
+      jobTitle: 'Software Engineer (Front-end)',
+      departmentId: 'dept16',
+      divisionId: 'div4',
+      divisionName: 'Technology & IT',
+      scheduledDate: '2024-02-20',
+      scheduledTime: '10:00',
+      mode: 'online',
+      interviewerId: '2',
+      interviewerName: 'Sarah Tech HR',
+      status: 'scheduled',
+      createdAt: '2024-02-08',
+      departmentName: 'Software Development (Internal RMS/ERP)',
   },
   {
     id: 'int2',
@@ -909,6 +910,7 @@ export const mockInterviews: Interview[] = [
     feedback: 'Excellent technical skills and communication. Strong React and TypeScript knowledge. Demonstrated good problem-solving abilities.',
     notes: 'Strong candidate, recommend for next round. Has relevant experience with modern frontend technologies.',
     createdAt: '2024-02-01',
+    departmentName: 'Software Development (Internal RMS/ERP)',
   },
   {
     id: 'int3',
@@ -927,6 +929,7 @@ export const mockInterviews: Interview[] = [
     interviewerName: 'Sarah Tech HR',
     status: 'scheduled',
     createdAt: '2024-02-13',
+    departmentName: 'Software Development (Internal RMS/ERP)',
   },
   
   // Agriculture Interviews
@@ -947,6 +950,7 @@ export const mockInterviews: Interview[] = [
     interviewerName: 'Ahmed Agri HR',
     status: 'scheduled',
     createdAt: '2024-01-20',
+    departmentName: 'Sales & Distribution',
   },
   {
     id: 'int5',
@@ -965,6 +969,7 @@ export const mockInterviews: Interview[] = [
     interviewerName: 'Ahmed Agri HR',
     status: 'scheduled',
     createdAt: '2024-01-30',
+    departmentName: 'R&D / Agronomy',
   },
   
   // Real Estate Interviews
@@ -987,6 +992,7 @@ export const mockInterviews: Interview[] = [
     feedback: 'Strong project management background. Good leadership skills and technical knowledge.',
     notes: 'Completed first round. Technical assessment pending.',
     createdAt: '2024-01-22',
+    departmentName: 'Project Management (Civil/MEP)',
   },
   {
     id: 'int7',
@@ -1005,6 +1011,7 @@ export const mockInterviews: Interview[] = [
     interviewerName: 'Fatima Real Estate HR',
     status: 'scheduled',
     createdAt: '2024-01-27',
+    departmentName: 'Real Estate Sales & Marketing',
   },
   
   // Corporate Services Interviews
@@ -1027,6 +1034,7 @@ export const mockInterviews: Interview[] = [
     feedback: 'Excellent financial analysis skills. Strong background in IFRS and financial reporting.',
     notes: 'Very qualified candidate. Proceed to final round.',
     createdAt: '2024-02-11',
+    departmentName: 'Finance & Accounts',
   },
   
   // Energy & Telecom Interviews
@@ -1047,6 +1055,7 @@ export const mockInterviews: Interview[] = [
     interviewerName: 'John Admin',
     status: 'scheduled',
     createdAt: '2024-02-17',
+    departmentName: 'Technical Engineering',
   },
 ];
 
